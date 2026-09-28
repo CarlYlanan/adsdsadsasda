@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Vesktop
+Comment=Vesktop autostart script
+Exec=sh -c "/usr/bin/obs & sleep 3 && obs-cmd replay start"
+StartupNotify=false
+Terminal=false
+Icon=obs
